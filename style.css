@@ -224,9 +224,7 @@ nav a:hover {
 
 /*********** FIM BEBIDAS ***********/
 
-/*<div class="back-top">
-<button class="backtopo">Subir</button>
-</div>*/
+
 .back-top {
   float: right;
   display: flex;
@@ -238,6 +236,7 @@ nav a:hover {
 
 .backtopo {
   padding: 10px;
+   margin: 10px;
   cursor: pointer;
   border-radius: 10px;
   background-color: #ffffff;
