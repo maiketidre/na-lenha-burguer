@@ -120,7 +120,7 @@ h1 {
 #menu-pesquisa {
   max-width: 430px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 ul {
@@ -131,13 +131,13 @@ ul {
 nav a {
   text-decoration: none;
   padding: 5px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   background-color: white;
   font-weight: 500;
   color: #012231;
   border-radius: 15px;
-  margin: 2px;
-  padding: 5px 5px;
+  margin: 5px;
+  padding: 10px 15px;
   box-shadow: 2px 2px 5px rgb(101, 106, 107);
 }
 nav a:hover {
@@ -152,21 +152,32 @@ nav a:hover {
 
 /*********** INICIO BURGER ***********/
 .burguer {
-  display: inline-flex;
-  margin: 5px;
-  width: 45%;
-  max-width: 430px;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 10px auto;
   border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px gray;
 }
+.card {
+  display: flex;
+}
+
+.imgmenu {
+  width: 40%;
+}
+
 .imgmenu img {
   width: 100%;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  min-height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .descricao-burguer {
-  padding: 5px;
+  width: 60%;
+  padding: 10px;
 }
 
 /*********** FIM BURGER ***********/
