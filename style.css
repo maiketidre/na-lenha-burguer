@@ -72,7 +72,7 @@ h5 {
 .menu a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  padding: 5px 65px;
+  padding: 5px 60px;
 }
 .menu a:hover {
   border-bottom: 5px solid rgb(255, 0, 0);
