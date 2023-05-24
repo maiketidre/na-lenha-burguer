@@ -253,6 +253,18 @@ nav a:hover {
   font-size: 18px;
 }
 
+.duvidas {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.duvidas a {
+  text-decoration: none;
+  color: green;
+}
+
 .fixarRodape {
   font: Normal 12px Arial;
   bottom: 0;
